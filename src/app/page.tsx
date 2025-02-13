@@ -3,11 +3,12 @@ import {
   IconBrandLinkedin,
   IconBrandWhatsapp,
 } from "@tabler/icons-react";
+import { ArrowRightIcon } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full max-w-screen-xl mx-auto h-screen flex py-12 flex-col justify-between font-[family-name:var(--font-inter)] shadow-xl">
+    <div className="w-full max-w-screen-xl mx-auto h-screen flex py-6 flex-col justify-between font-[family-name:var(--font-inter)] shadow-xl">
       <main>
         <div className="w-full grid justify-center">
           <div className="w-48 mx-auto">
@@ -30,17 +31,23 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="w-full max-w-2xl mx-auto flex justify-between">
-        <span>Get a call</span>
+      <footer className="w-full max-w-2xl mx-auto flex justify-between items-end">
+        <a
+          href=""
+          className="w-32 p-2 rounded-xl flex justify-between bg-primary text-background"
+        >
+          <span className="font-semibold animate-pulse">Get a call</span>
+          <ArrowRightIcon className="animate-pulse" />
+        </a>
         <div className="grid grid-cols-3 gap-2">
           <a href="https://www.instagram.com/tasc.bar/">
-            <IconBrandInstagram />
+            <IconBrandInstagram className="size-8" />
           </a>
           <a href="https://wa.me/918089780714?text=Hey!%20I%20want%20to%20enquire%20about%20a%20website.">
-            <IconBrandWhatsapp />
+            <IconBrandWhatsapp className="size-8" />
           </a>
           <a href="https://www.linkedin.com/company/tascbar/">
-            <IconBrandLinkedin />
+            <IconBrandLinkedin className="size-8" />
           </a>
         </div>
       </footer>
