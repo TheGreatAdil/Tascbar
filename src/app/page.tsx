@@ -21,7 +21,7 @@ export default function Home() {
           </div>
 
           <h1 className="mx-auto py-6 mt-12 text-4xl text-center">
-            We're building our website and but we <br /> can build yours too!
+            We&apos;re building our website and we <br /> can build yours too!
           </h1>
 
           <div className="w-full h-96 my-8 flex justify-center items-center border border-border border-dashed rounded-xl">
