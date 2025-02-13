@@ -1,9 +1,7 @@
 import {
   IconBrandInstagram,
-  IconBrandInstagramFilled,
   IconBrandLinkedin,
   IconBrandWhatsapp,
-  IconBrandWhatsappFilled,
 } from "@tabler/icons-react";
 import Image from "next/image";
 
@@ -41,8 +39,8 @@ export default function Home() {
           <a href="https://wa.me/918089780714?text=Hey!%20I%20want%20to%20enquire%20about%20a%20website.">
             <IconBrandWhatsapp />
           </a>
-          <a href="https://www.instagram.com/tasc.bar/">
-            <IconBrandInstagram />
+          <a href="https://www.linkedin.com/company/tascbar/">
+            <IconBrandLinkedin />
           </a>
         </div>
       </footer>
