@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { PostHogProvider } from "@/lib/providers";
+import { PostHogProvider } from "@/lib/ph-providers";
 
 const inter = Inter({
   variable: "--font-inter",

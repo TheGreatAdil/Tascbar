@@ -1,14 +1,14 @@
 import {
-  IconBrandInstagram,
-  IconBrandLinkedin,
-  IconBrandWhatsapp,
+  IconBrandInstagramFilled,
+  IconBrandLinkedinFilled,
+  IconBrandWhatsappFilled,
 } from "@tabler/icons-react";
 import { ArrowRightIcon } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full max-w-screen-xl mx-auto h-screen flex py-6 flex-col justify-between font-[family-name:var(--font-inter)] shadow-xl">
+    <div className="w-full max-w-screen-xl mx-auto h-screen flex py-6 px-4 md:px-0 flex-col justify-between font-[family-name:var(--font-inter)] shadow-xl">
       <main>
         <div className="w-full grid justify-center">
           <div className="w-48 mx-auto">
@@ -34,20 +34,20 @@ export default function Home() {
       <footer className="w-full max-w-2xl mx-auto flex justify-between items-end">
         <a
           href=""
-          className="w-32 p-2 rounded-xl flex justify-between bg-primary text-background"
+          className="w-36 p-2 items-center text-xs  rounded-xl flex justify-between bg-primary text-background"
         >
-          <span className="font-semibold animate-pulse">Get a call</span>
-          <ArrowRightIcon className="animate-pulse" />
+          <span className="font-semibold animate-pulse">GET A CALL</span>
+          <ArrowRightIcon className="animate-pulse size-4" />
         </a>
         <div className="grid grid-cols-3 gap-2">
           <a href="https://www.instagram.com/tasc.bar/">
-            <IconBrandInstagram className="size-8" />
+            <IconBrandInstagramFilled className="size-8" />
           </a>
           <a href="https://wa.me/918089780714?text=Hey!%20I%20want%20to%20enquire%20about%20a%20website.">
-            <IconBrandWhatsapp className="size-8" />
+            <IconBrandWhatsappFilled className="size-8" />
           </a>
           <a href="https://www.linkedin.com/company/tascbar/">
-            <IconBrandLinkedin className="size-8" />
+            <IconBrandLinkedinFilled className="size-8" />
           </a>
         </div>
       </footer>
