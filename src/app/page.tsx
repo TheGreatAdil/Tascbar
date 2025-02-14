@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full max-w-screen-xl mx-auto h-screen flex py-6 px-4 md:px-0 flex-col justify-between font-[family-name:var(--font-inter)] shadow-xl">
+    <div className="w-full max-w-screen-xl mx-auto md:h-screen flex py-6 px-4 md:px-0 flex-col justify-between font-[family-name:var(--font-inter)] shadow-xl">
       <main>
         <div className="w-full grid justify-center">
           <div className="w-48 mx-auto">
@@ -26,7 +26,7 @@ export default function Home() {
             We&apos;re building our website and we <br /> can build yours too!
           </h1>
 
-          <div className="relative w-full h-96 my-8 flex justify-center items-center border border-border border-dashed rounded-xl">
+          <div className="relative w-full h-72 md:h-96 my-8 flex justify-center items-center border border-border border-dashed rounded-xl">
             <Particles
               className="absolute inset-0 [@media(prefers-color-scheme:dark)]:invert"
               quantity={200}
@@ -34,7 +34,7 @@ export default function Home() {
               color={"#000000"}
               refresh
             />
-            <h3 className="text-xs font-light tracking-[1rem] animate-pulse">
+            <h3 className="text-xs font-bold tracking-[0.5rem] md:tracking-[1rem] animate-pulse">
               GOOD STUFF BEING BUILT
             </h3>
           </div>
