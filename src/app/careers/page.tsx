@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 import { jobs } from "@/lib/constants";
 
 export default function page() {
   return (
     <div className="w-full max-w-screen-xl mx-auto md:h-screen flex py-6 px-4 md:px-0 flex-col justify-between font-[family-name:var(--font-inter)] shadow-xl">
       <main className="grid justify-center">
-        <a href="/" className="w-48 mx-auto">
+        <Link href="/" className="w-48 mx-auto">
           <Image
             width={150}
             height={150}
@@ -13,7 +14,7 @@ export default function page() {
             alt="tascbar logo"
             className="mx-auto [@media(prefers-color-scheme:dark)]:invert"
           />
-        </a>
+        </Link>
         <h1 className="text-center text-6xl md:text-7xl tracking-widest font-semibold p-12">
           CAREERS
         </h1>
