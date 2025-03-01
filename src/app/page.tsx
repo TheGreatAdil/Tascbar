@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full max-w-screen-xl mx-auto md:h-screen flex py-6 px-4 md:px-0 flex-col justify-between font-[family-name:var(--font-inter)] shadow-xl">
+    <div className="w-full max-w-screen-xl mx-auto h-screen flex py-6 px-4 md:px-0 flex-col justify-between font-[family-name:var(--font-inter)] shadow-xl">
       <main>
         <div className="w-full grid justify-center">
           <div className="w-48 mx-auto">
@@ -43,10 +43,10 @@ export default function Home() {
 
       <footer className="w-full max-w-2xl mx-auto flex justify-between items-end">
         <a
-          href="https://cal.com/tascbar"
+          href="/careers"
           className="w-36 py-2 px-3 items-center text-xs rounded-xl flex justify-between bg-primary text-background"
         >
-          <span className="font-semibold">BOOK A CALL</span>
+          <span className="font-semibold">CAREERS</span>
           <ArrowRightIcon className="size-4" />
         </a>
         <div className="grid grid-cols-3 gap-2">
