@@ -44,7 +44,7 @@ export default function page() {
               </div>
               <a
                 href={"https://forms.gle/P7xsRXox4dyTLnn28"}
-                className="w-full h-12 md:w-32 flex justify-center text-xs tracking-wider items-center font-bold text-white border border-border rounded-md hover:bg-primary hover:text-secondary transition-all duration-500"
+                className="w-full h-12 md:w-32 flex justify-center text-xs tracking-wider items-center font-bold text-primary border border-border rounded-md hover:bg-primary hover:text-secondary transition-all duration-500"
               >
                 APPLY NOW
               </a>
