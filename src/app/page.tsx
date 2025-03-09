@@ -43,10 +43,10 @@ export default function Home() {
 
       <footer className="w-full max-w-2xl mx-auto flex justify-between items-end">
         <a
-          href="/careers"
+          href="https://cal.com/tascbar"
           className="w-36 py-2 px-3 items-center text-xs rounded-xl flex justify-between bg-primary text-background"
         >
-          <span className="font-semibold">CAREERS</span>
+          <span className="font-semibold">BOOK A CALL</span>
           <ArrowRightIcon className="size-4" />
         </a>
         <div className="grid grid-cols-3 gap-2">
