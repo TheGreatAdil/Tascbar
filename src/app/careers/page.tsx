@@ -42,9 +42,18 @@ export default function page() {
                   <p className="text-sm text-neutral-600">{job.category}</p>
                 </div>
               </div>
-              <a className="w-full h-12 md:w-32 flex justify-center text-xs tracking-wider items-center font-bold text-primary border border-border rounded-md transition-none duration-500 cursor-not-allowed">
-                CLOSED
-              </a>
+              {job.open ? (
+                <a
+                  href={job.link}
+                  className="w-full h-12 md:w-32 flex justify-center text-xs tracking-wider items-center font-bold text-primary border border-border rounded-md hover:bg-primary hover:text-secondary transition-all duration-500"
+                >
+                  APPLY NOW
+                </a>
+              ) : (
+                <a className="w-full h-12 md:w-32 flex justify-center text-xs tracking-wider items-center font-bold text-primary border border-border rounded-md transition-none duration-500 cursor-not-allowed">
+                  CLOSED
+                </a>
+              )}
             </div>
           ))}
         </div>
